@@ -1,0 +1,10 @@
+baseURL = "http://josephhutch.com"
+languageCode = "en-us"
+title = "joehutch"
+theme = "aether"
+publishDir = "josephhutch.github.io"
+disableKinds = ["taxonomies","taxonomyTerm"]
+
+[params]
+description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
+homeimg = "/img/grey-cloud.jpg"
