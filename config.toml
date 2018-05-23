@@ -1,4 +1,4 @@
-baseURL = "https://joehutch.com"
+baseURL = "joehutch.com"
 languageCode = "en-us"
 title = "joehutch"
 theme = "aether"
