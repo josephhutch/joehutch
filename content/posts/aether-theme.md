@@ -32,6 +32,7 @@ theme = "aether"
 brand = "The title you would like to show in the nav bar"
 description = "Your website's description."
 homeimg = "url to the image used for the home button"
+bgimg = "url to the image used for the background"
 ```
 
 You're all set!  Once your begin writing posts, they will display using the Aether theme.
