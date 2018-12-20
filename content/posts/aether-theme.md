@@ -40,7 +40,7 @@ homeimg = "url to the image used for the home button - optional"
 bgimg = "url to the image used for the background - optional"
 ```
 
-The `title` parameter is used for each page title, the title that seach engines display in search results and the tab name. If you would like the title shown in the top left of the page to be different from the page title, use the `brand` parameter. For instance, the title parameter for my site is `Joe Hutchinson` but the brand parameter is set to `joehutch`.
+The `title` parameter is used for each page title, the title that seach engines display in search results. If you would like the title shown in the top left of the page to be different from the page title, use the `brand` parameter. For instance, the title parameter for my site is `Joe Hutchinson` but the brand parameter is set to `joehutch`.
 
 The `homeimg` and `bgimg` parameters give you the ability to customize the look of your site further. The homeimg parameter is the image used for the home button at the bottom of every page. Since the text used on the home button is white, a darker background image is preferred. If the homeimg parameter is not specified, a fallback image is used. Similarly, the bgimg parameter is used for the background of each webpage. Aether is designed to look best with a subtle tiling image for the background. If no background image is specified, the background will be a solid gray color.
 
@@ -56,7 +56,7 @@ date: date the post was generated
 description: "Description of the post (displayed in the post's card)"
 categories: ["add comma separated categories here", "another category"]
 featuredImage: "url to the page's featured image"
-dropCap: if the first letter should be a large decorative capital letter
+dropCap: if the first letter should be a large decorative capital letter (true, false)
 displayInMenu: if post is listed in the navigation menu (true, false)
 displayInList: if post is listed on the home page and category pages (true, false)
 draft: if the page is a draft (true, false)
@@ -65,9 +65,9 @@ draft: if the page is a draft (true, false)
 
 The `displayInMenu` and `displayInList` parameters are used to determine where your content is displayed. Posts typically have displayInMenu set to false so that the post is not a menu option, and displayInList set to true so it shows up on the homepage's list of posts and in category page lists. An About Me page, on the other hand, would have displayInMenu set to true and displayInList set to false.  That will allow the About Me page to be accessible from the menu but not displayed in the homepage's list of posts.
 
-The `categories` parameter is used to group similar articles in category pages. Category pages are accessible from the menu and list all pages with the same category.
+The `categories` parameter is used to group similar posts in category pages. Category pages are accessible from the menu and list all posts with the same category.
 
-The `dropCap` parameter is used to determine if the first letter of the post should be a dropped capital. A dropped capital letter is the large decorative letter at the beginning of a book or section.
+The `dropCap` parameter is used to determine if the first letter of a post should be a dropped capital. A dropped capital letter is the large decorative letter at the beginning of a book or section.
 
 Add an interesting description and a good image to each post to get the most value from this theme.
 
