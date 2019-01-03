@@ -4,6 +4,7 @@ date: 2018-05-02T14:33:42-04:00
 description: " Aether is new theme for Hugo that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
 categories: ["Web-Dev"]
 featuredImage: "/img/mdd-macbook.jpg"
+featuredImageDescription: "A Macbook showing a website using the aether theme"
 dropCap: true
 displayInMenu: false
 displayInList: true
@@ -32,6 +33,7 @@ baseURL = "https://yourwebsitenamegoeshere.com"
 languageCode = "your language code"
 title = "your website title"
 theme = "aether"
+googleAnalytics = "Your google analytics tracking ID"
 
 [params]
 brand = "the title displayed in the nav bar - optional"
@@ -56,6 +58,7 @@ date: date the post was generated
 description: "Description of the post (displayed in the post's card)"
 categories: ["add comma separated categories here", "another category"]
 featuredImage: "url to the page's featured image"
+featuredImageDescription: "Description for the featured image, used as the alt text"
 dropCap: if the first letter should be a large decorative capital letter (true, false)
 displayInMenu: if post is listed in the navigation menu (true, false)
 displayInList: if post is listed on the home page and category pages (true, false)
