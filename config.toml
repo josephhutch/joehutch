@@ -8,5 +8,5 @@ disableKinds = ["taxonomies","taxonomyTerm"]
 [params]
 brand = "joehutch"
 description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
-homeimg = "/img/grey-cloud.jpg"
-bgimg = "/img/ignasi_pattern_s.png"
+homeimg = "img/grey-cloud.jpg"
+bgimg = "img/ignasi_pattern_s.png"

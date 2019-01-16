@@ -3,7 +3,7 @@ title: "Aether: A Clean Theme for Hugo"
 date: 2018-05-02T14:33:42-04:00
 description: " Aether is new theme for Hugo that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
 categories: ["Web-Dev"]
-featuredImage: "/img/mdd-macbook.jpg"
+featuredImage: "img/mdd-macbook.jpg"
 featuredImageDescription: "A Macbook showing a website using the aether theme"
 dropCap: true
 displayInMenu: false
@@ -79,10 +79,14 @@ Posts are written in markdown and LaTeX (for math symbols and equations). You ca
 #### LaTeX style math typsetting with KaTeX
 
 ```md
-\\[\frac{n!}{k!(n-k)!} = \binom{n}{k}\\]
+{{</* raw */>}}
+\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
+{{</* /raw */>}}
 ```
 
-\\[\frac{n!}{k!(n-k)!} = \binom{n}{k}\\]
+{{< raw >}}
+\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
+{{< /raw >}}
 
 #### Code (Supports many programming languages and formats)
 
@@ -171,6 +175,16 @@ Here is `var s = "Hello World"` inline code
 ```
 
 ![aether theme displayed on an iPhone](/img/mdd-iphone.jpg "aether on iPhone")
+
+#### Small Images
+
+```md
+{{</* smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="100px" */>}}
+```
+
+{{<smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="250px">}}
+
+This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows aether on an iphone. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
 
 #### Links
 

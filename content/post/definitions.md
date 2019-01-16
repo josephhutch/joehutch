@@ -6,7 +6,7 @@ categories: []
 featuredImage: "/img/syd-wachs-120737-unsplash.jpg"
 dropCap: false
 displayInMenu: true
-displayInList: true
+displayInList: false
 draft: true
 ---
 
