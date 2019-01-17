@@ -179,7 +179,7 @@ Here is `var s = "Hello World"` inline code
 #### Small Images
 
 ```md
-{{</* smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="100px" */>}}
+{{</* smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="250px" */>}}
 ```
 
 {{<smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="250px">}}
@@ -205,6 +205,6 @@ description: "This is the subtext above the main heading in small letters"
 ---
 ```
 
-### Learn  More
+## Learn  More
 
 To learn more about aether, visit [aether's Github page](https://github.com/josephhutch/aether). To learn more about Hugo, visit [Hugo's website](https://gohugo.io/).
