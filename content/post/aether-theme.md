@@ -171,18 +171,22 @@ Here is `var s = "Hello World"` inline code
 #### Images
 
 ```md
-![aether theme displayed on an iPhone](/img/mdd-iphone.jpg "aether on iPhone")
+![aether theme displayed on an iPhone](img/mdd-iphone.jpg)
+
+<!--- OR with webp support ... -->
+
+{{</* image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" */>}}
 ```
 
-![aether theme displayed on an iPhone](/img/mdd-iphone.jpg "aether on iPhone")
+{{<image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 #### Small Images
 
 ```md
-{{</* smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="250px" */>}}
+{{</* smallimg src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px" */>}}
 ```
 
-{{<smallimg src="/img/mdd-iphone.jpg" alt="aether on iPhone" smartfloat="left" width="250px">}}
+{{<smallimg src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px">}}
 
 This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows aether on an iphone. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
 
