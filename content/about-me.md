@@ -1,7 +1,6 @@
 ---
 title: "About Me"
 date: 2018-05-22T10:40:10-04:00
-description: ""
 dropCap: false
 displayInMenu: true
 displayInList: false

@@ -1,10 +1,10 @@
 ---
 title: "Aether: A Clean Theme for Hugo"
 date: 2018-05-02T14:33:42-04:00
-description: " Aether is new theme for Hugo that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
+description: "Aether is new theme for Hugo (a static site generator) that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
 categories: ["Web-Dev"]
 featuredImage: "img/mdd-macbook.jpg"
-featuredImageDescription: "A Macbook showing a website using the aether theme"
+featuredImageDescription: "A MacBook showing a website using the aether theme"
 dropCap: true
 displayInMenu: false
 displayInList: true
