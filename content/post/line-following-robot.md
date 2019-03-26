@@ -11,7 +11,7 @@ displayInList: true
 draft: false
 ---
 
-A Lego EV3 robot races down a line of black tape, smoothly navigating sharp turns, and skidding to a stop infront of a box blocking the path. This was the objective of my mechatronics course's final project. I worked with two classmates to create sensor circuits, implement PID control, and build a robot with a picture of that racing robot in mind.
+A Lego EV3 robot races down a line of black tape, smoothly navigating sharp turns, and skidding to a stop in front of a box blocking the path. This was the objective of my mechatronics course's final project. I worked with two classmates to create sensor circuits, implement PID control, and build a robot with a picture of that racing robot in mind.
 
 ## PID Based Line Following
 
@@ -24,15 +24,15 @@ The idea behind PID control is simple: the difference between what you want, the
 \[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
 {{< /raw >}}
 
-The difficulty with PID control comes in tuning the constants. Manual tuning and using a PID tuning technique called the Ziegler-Nichols method both proved unsuccessful in our attempts. However, we were able to get a successful combination of constants by increasing {{< raw >}} \( K_p \) {{< /raw >}} until the robot started to heavily oscilate, then increasing {{< raw >}} \( K_d \) {{< /raw >}} to dampen the osciallations, and repeating until the robot could handle sharp turns with smooth execution.
+The difficulty with PID control comes in tuning the constants. Manual tuning and using a PID tuning technique called the Ziegler-Nichols method both proved unsuccessful in our attempts. However, we were able to get a successful combination of constants by increasing {{< raw >}} \( K_p \) {{< /raw >}} until the robot started to heavily oscillate, then increasing {{< raw >}} \( K_d \) {{< /raw >}} to dampen the oscillations, and repeating until the robot could handle sharp turns with smooth execution.
 
 It is important to know that the derivative term can amplify the effects of noise. Since we had a good amount of noise in our measurements and the noise frequency was much higher than the dynamics of our application, low pass filtering our measurements was crucial. Using a moving average filter removed unwanted noise while maintaining the integrity of the signal. This allowed the derivative term to improve our robot performance instead of throwing our robot off course.
 
 ## Robot Design
 
-The best PID control cannot compensate for a poor system. This is why building an agile robot with robust sensing was so imporant. To create a responsive robot, we placed the drive motors in the front of the vehicle near the sensors. This allowed sensing and control to be more tightly coupled. Also, a low friction leg was put in the back so that the robot could turn freely.
+The best PID control cannot compensate for a poor system. This is why building an agile robot with robust sensing was so important. To create a responsive robot, we placed the drive motors in the front of the vehicle near the sensors. This allowed sensing and control to be more tightly coupled. Also, a low friction leg was put in the back so that the robot could turn freely.
 
-For the robot to detect the full range of possible headings (from “far left of the line” to “far right of the line”), three reflective light sensors were positioned in front of the robot accross the width of the line. Placing the sensors very close to the ground resulted in better sensitivity but the area measured by the sensor was too small for our application. Since it was necessary for our robot to see as much of the line as possible to detect its heading, a sensor height of 2.8 cm was selected. This provided the best balance of coverage area and sensitivity. In order to provide the robot the ability to handle sharp curves, the sensors were placed as close as possible to the axis of rotation. The reflective light sensor used was the EE-SF5B. Below is the schematic showing how the sensor was interfaced with the EV3 using a 6-pin connector cable.
+For the robot to detect the full range of possible headings (from “far left of the line” to “far right of the line”), three reflective light sensors were positioned in front of the robot across the width of the line. Placing the sensors very close to the ground resulted in better sensitivity but the area measured by the sensor was too small for our application. Since it was necessary for our robot to see as much of the line as possible to detect its heading, a sensor height of 2.8 cm was selected. This provided the best balance of coverage area and sensitivity. In order to provide the robot the ability to handle sharp curves, the sensors were placed as close as possible to the axis of rotation. The reflective light sensor used was the EE-SF5B. Below is the schematic showing how the sensor was interfaced with the EV3 using a 6-pin connector cable.
 
 {{<smallimg src="/img/reflectiveOpticalSensorSchematic.png" alt="Schematic for reflective light sensor">}}
 
@@ -40,4 +40,4 @@ To see any objects blocking the path, an ultrasonic sensor was mounted above the
 
 {{<smallimg src="/img/ultrasonicSensorSchematic.png" alt="Schematic for the ultrasonic sensor">}}
 
-With the robot constucted, sensors mounted, and PID control completed, I was proud to show off our robot during the project demonstration. Our robot raced around the track, smoothly tracking each turn, and our goal had come to light.
+With the robot constructed, sensors mounted, and PID control completed, I was proud to show off our robot during the project demonstration. Our robot raced around the track, smoothly tracking each turn, and our goal had come to light.

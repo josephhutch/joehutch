@@ -11,7 +11,7 @@ displayInList: true
 draft: true
 ---
 
-Back in high school, I made a maze game for a local programming competition. The mazes are generated procedurally, it keeps score, and you can generate mazes of different sizes. Had my high school self thought to document and package the game sooner than a half hour before the deadline, I think it would have done well in the competition. Anyways, the maze game uses a number of cool algorithms so let's get into how it works.
+Back in high school, I made a maze game for a local programming competition. The mazes are generated procedurally, it keeps score, and it can generate mazes of different sizes. Had my high school self thought to document and package the game sooner than a half hour before the deadline, I think it would have done well in the competition. Anyways, the maze game runs anywhere with Java and is built with a number of cool algorithms.
 
 ## Procedural Maze Generation
 Each maze is procedurally generated using an algorithm called recursive backtracking. It is one of the more simple maze generation algorithms but it produces great results. The algorithm can be broken down into three basic steps:
