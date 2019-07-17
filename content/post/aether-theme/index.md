@@ -3,12 +3,15 @@ title: "Aether: A Clean Theme for Hugo"
 date: 2018-05-02T14:33:42-04:00
 description: "Aether is new theme for Hugo (a static site generator) that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
 categories: ["Web-Dev"]
-featuredImage: "img/mdd-macbook.jpg"
-featuredImageDescription: "A MacBook showing a website using the aether theme"
 dropCap: true
 displayInMenu: false
 displayInList: true
 draft: false
+resources:
+- name: featuredImage
+  src: "mdd-macbook.jpg"
+  params:
+    description: "A MacBook showing a website using the aether theme"
 ---
 
 Today's web is a frustrating mess of pop-ups, intrusive banners, and ads obstructing the content. I designed aether to be free of all these distractions and simply highlight the content. The result feels more like a native application than a website. Interactions are intuitive, content is the focus, and distractions are omitted.
@@ -47,6 +50,8 @@ The `title` parameter is used for each page title, the title that seach engines 
 The `homeimg` and `bgimg` parameters give you the ability to customize the look of your site further. The homeimg parameter is the image used for the home button at the bottom of every page. Since the text used on the home button is white, a darker background image is preferred. If the homeimg parameter is not specified, a fallback image is used. Similarly, the bgimg parameter is used for the background of each webpage. Aether is designed to look best with a subtle tiling image for the background. If no background image is specified, the background will be a solid gray color.
 
 That is the only configuration required at the site level! You can now begin writing content for your site.
+
+{{<image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 ### Creating content
 Make a new blog post by executing `hugo new post/postnamehere.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.

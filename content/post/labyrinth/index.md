@@ -1,14 +1,17 @@
 ---
-title: "I Made a Procedurally Generated Maze Game"
+title: "Procedurally Generated Maze Game Fun"
 date: 2019-03-15T21:28:41-04:00
 description: "Everyone loves a good maze but, how might a computer generate one. Well, you can generate a maze using a simple algorithm called recursive backtracking. And yes, the algorithm is as cool as its name."
 categories: ["Code"]
-featuredImage: "img/labyrinthMaze.png"
-featuredImageDescription: "The maze game window with the solution to the maze painted over it"
 dropCap: true
 displayInMenu: false
 displayInList: true
 draft: true
+resources:
+- name: featuredImage
+  src: "labyrinthMaze.png"
+  params:
+    description: "The maze game window with the solution to the maze painted over it"
 ---
 
 Back in high school, I made a maze game for a local programming competition. The mazes are generated procedurally, it keeps score, and it can generate mazes of different sizes. Had my high school self thought to document and package the game sooner than a half hour before the deadline, I think it would have done well in the competition. Anyways, the maze game runs anywhere with Java and is built with a number of cool algorithms.

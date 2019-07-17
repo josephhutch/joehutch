@@ -3,12 +3,15 @@ title: "PID Control for Line Following Robot"
 date: 2018-12-21T11:30:19-05:00
 description: "Line following is easy to accomplish but hard to master. PID Control, while more challenging to implement and tune, provides effective smooth tracking and quick response."
 categories: ["Robotics"]
-featuredImage: "img/lineBot.jpg"
-featuredImageDescription: "A line following robot comprised of a Lego EV3 and hand-soldered sensor circuits"
 dropCap: true
 displayInMenu: false
 displayInList: true
 draft: false
+resources:
+- name: featuredImage
+  src: "lineBot.jpg"
+  params:
+    description: "A line following robot comprised of a Lego EV3 and hand-soldered sensor circuits"
 ---
 
 A Lego EV3 robot races down a line of black tape, smoothly navigating sharp turns, and skidding to a stop in front of a box blocking the path. This was the objective of my mechatronics course's final project. I worked with two classmates to create sensor circuits, implement PID control, and build a robot with a picture of that racing robot in mind.
