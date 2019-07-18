@@ -51,7 +51,7 @@ The `homeimg` and `bgimg` parameters give you the ability to customize the look 
 
 That is the only configuration required at the site level! You can now begin writing content for your site.
 
-{{<image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
+{{<image src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 ### Creating content
 Make a new blog post by executing `hugo new post/postnamehere.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
@@ -183,7 +183,7 @@ Here is `var s = "Hello World"` inline code
 {{</* image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" */>}}
 ```
 
-{{<image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
+{{<image src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 #### Small Images
 
@@ -191,7 +191,7 @@ Here is `var s = "Hello World"` inline code
 {{</* smallimg src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px" */>}}
 ```
 
-{{<smallimg src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px">}}
+{{<smallimg src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px">}}
 
 This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows aether on an iPhone. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren't necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.
 

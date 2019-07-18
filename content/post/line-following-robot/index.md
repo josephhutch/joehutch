@@ -37,10 +37,10 @@ The best PID control cannot compensate for a poor system. This is why building a
 
 For the robot to detect the full range of possible headings (from “far left of the line” to “far right of the line”), three reflective light sensors were positioned in front of the robot across the width of the line. Placing the sensors very close to the ground resulted in better sensitivity but the area measured by the sensor was too small for our application. Since it was necessary for our robot to see as much of the line as possible to detect its heading, a sensor height of 2.8 cm was selected. This provided the best balance of coverage area and sensitivity. In order to provide the robot the ability to handle sharp curves, the sensors were placed as close as possible to the axis of rotation. The reflective light sensor used was the EE-SF5B. Below is the schematic showing how the sensor was interfaced with the EV3 using a 6-pin connector cable.
 
-{{<smallimg src="/img/reflectiveOpticalSensorSchematic.png" alt="Schematic for reflective light sensor">}}
+{{<smallimg src="post/line-following-robot/reflectiveOpticalSensorSchematic.png" alt="Schematic for reflective light sensor">}}
 
 To see any objects blocking the path, an ultrasonic sensor was mounted above the color sensors pointing toward the forward direction of travel. The ultrasonic sensor used was the SRF04. To have the sensor sample continuously, the SRF04's trigger was connected to a NE555 timer IC. The capacitors and resistors used in the NE555 circuit determine the frequency and pulse width of the output. Resistor and capacitor values were selected to achieve a 30ms period with a 1ms pulse width. This was necessary for the SRFO4 to trigger properly. The PWM output from the SRF04 was put through an RC low pass filter so that the EV3 could sample it. The ultrasonic circuit is shown below.
 
-{{<smallimg src="/img/ultrasonicSensorSchematic.png" alt="Schematic for the ultrasonic sensor">}}
+{{<smallimg src="post/line-following-robot/ultrasonicSensorSchematic.png" alt="Schematic for the ultrasonic sensor">}}
 
 With the robot constructed, sensors mounted, and PID control completed, I was proud to show off our robot during the project demonstration. Our robot raced around the track, smoothly tracking each turn, and our goal had come to light.
