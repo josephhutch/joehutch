@@ -62,12 +62,16 @@ title: "The title of your post"
 date: date the post was generated
 description: "Description of the post (displayed in the post's card)"
 categories: ["add comma separated categories here", "another category"]
-featuredImage: "url to the page's featured image"
-featuredImageDescription: "Description for the featured image, used as the alt text"
 dropCap: if the first letter should be a large decorative capital letter (true, false)
 displayInMenu: if post is listed in the navigation menu (true, false)
 displayInList: if post is listed on the home page and category pages (true, false)
 draft: if the page is a draft (true, false)
+resources:
+- name: featuredImage
+  src: "URL to the page's featured image, used as the card image and the image at the top of the article"
+  params:
+    description: "Description for the featured image, used as the alt text"
+---
 ---
 ```
 
@@ -176,11 +180,11 @@ Here is `var s = "Hello World"` inline code
 #### Images
 
 ```md
-![aether theme displayed on an iPhone](img/mdd-iphone.jpg)
+![aether theme displayed on an iPhone](post/aether-theme/mdd-iphone.jpg)
 
 <!--- OR with webp support ... -->
 
-{{</* image src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" */>}}
+{{</* image src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" */>}}
 ```
 
 {{<image src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
@@ -188,7 +192,7 @@ Here is `var s = "Hello World"` inline code
 #### Small Images
 
 ```md
-{{</* smallimg src="img/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px" */>}}
+{{</* smallimg src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px" */>}}
 ```
 
 {{<smallimg src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" smartfloat="left" width="250px">}}
