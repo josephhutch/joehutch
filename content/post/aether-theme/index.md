@@ -43,6 +43,7 @@ brand = "the title displayed in the nav bar - optional"
 description = "your website's description"
 homeimg = "url to the image used for the home button - optional"
 bgimg = "url to the image used for the background - optional"
+rssinmenu = if a RSS link should appear in the nav menu (true, false) - optional
 ```
 
 The `title` parameter is used for each page title, the title that seach engines display in search results. If you would like the title shown in the top left of the page to be different from the page title, use the `brand` parameter. For instance, the title parameter for my site is `Joe Hutchinson` but the brand parameter is set to `joehutch`.
@@ -54,7 +55,7 @@ That is the only configuration required at the site level! You can now begin wri
 {{<image src="post/aether-theme/mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 ### Creating content
-Make a new blog post by executing `hugo new post/postnamehere.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
+Make a new blog post by executing `hugo new post/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
 
 ```properties
 ---
@@ -71,7 +72,6 @@ resources:
   src: "URL to the page's featured image, used as the card image and the image at the top of the article"
   params:
     description: "Description for the featured image, used as the alt text"
----
 ---
 ```
 
