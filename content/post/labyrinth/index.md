@@ -28,4 +28,5 @@ Each maze is procedurally generated using an algorithm called recursive backtrac
 ## Verifying That the Maze Is Solvable
 Recursive backtracking provides no guarantee that the maze is solvable. So, before the game lets the user attempt an impossible maze, it verifies that the maze has a solution using an efficient path finding algorithm called A* (pronounced "A Star").
 
-![Labyrinth maze game window](/img/labyrinth.png)
+
+{{<image src="labyrinth.png" alt="Labyrinth maze game window">}}

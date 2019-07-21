@@ -12,4 +12,4 @@ I'm a part time master's student at NC State University and full time engineer a
 
 You can find me on GitHub at [josephhutch](https://github.com/josephhutch/)
 
-{{<image src="about-me/me.jpg" alt="Joe Hutchinson and Isabelle posing on balcony">}}
+{{<image src="me.jpg" alt="Joe Hutchinson and Isabelle posing on balcony">}}
