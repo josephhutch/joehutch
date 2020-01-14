@@ -2,7 +2,7 @@
 title: "PID Control for Line Following Robot"
 date: 2018-12-21T11:30:19-05:00
 description: "Line following is easy to accomplish but hard to master. PID Control, while more challenging to implement and tune, provides effective smooth tracking and quick response."
-categories: ["Robotics"]
+categories: ["tech"]
 dropCap: true
 displayInMenu: false
 displayInList: true
