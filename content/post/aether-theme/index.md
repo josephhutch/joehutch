@@ -55,7 +55,7 @@ That is the only configuration required at the site level! You can now begin wri
 {{<image src="mdd-iphone.jpg" alt="aether theme displayed on an iPhone" >}}
 
 ### Creating content
-Make a new blog post by executing `hugo new post/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
+Make a new blog post by executing `hugo new posts/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
 
 ```properties
 ---
@@ -82,6 +82,8 @@ The `categories` parameter is used to group similar posts in category pages. Cat
 The `dropCap` parameter is used to determine if the first letter of a post should be a dropped capital. A dropped capital letter is the large decorative letter at the beginning of a book or section.
 
 Add an interesting description and a good image to each post to get the most value from this theme.
+
+Aether takes advantage of [page bundles](https://gohugo.io/content-management/page-bundles/) to optimize your images for your site.  This may require you to update the way your content is structured, also see [content organization](https://gohugo.io/content-management/organization/).  Use the `image` and `smallimg` shortcodes to take full advantage of image optimization.
 
 Posts are written in markdown and LaTeX (for math symbols and equations). You can find tons of information on how to format your posts with markdown and LaTeX on the web. Below are examples of how markdown and LaTeX looks when generated into HTML with aether. For each example below, first is the markdown and the second is how the resulting HTML looks. This is not an exhaustive list.
 
@@ -180,7 +182,7 @@ Here is `var s = "Hello World"` inline code
 #### Images
 
 ```md
-![aether theme displayed on an iPhone](post/aether-theme/mdd-iphone.jpg)
+![aether theme displayed on an iPhone](posts/aether-theme/mdd-iphone.jpg)
 
 <!--- OR with webp support ... -->
 
