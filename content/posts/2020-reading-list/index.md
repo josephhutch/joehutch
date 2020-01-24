@@ -18,10 +18,17 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 
 ## Books
 
-- Design Thinking Methodology Book by Emrah Yayici
-- The Devil In The White City by Erik Larson (In Progress)
+- *Design Thinking Methodology Book* by Emrah Yayici
+- *The Devil In The White City* by Erik Larson (In Progress)
+- *Born a Crime* by Trevor Noah (In the Queue)
+- *Killers of the Flower Moon* by David Grann (In the Queue)
+- *Cloud Atlas* by David Mitchell (In the Queue)
 
 ## AudioBooks
 
-- 7 Skills to Catapult Your Career by Stephen R. Thorne
-- Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance (In Progress)
+- *7 Skills to Catapult Your Career* by Stephen R. Thorne
+- *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future* by Ashlee Vance (In Progress)
+- *Originals* by Adam Grant (In the Queue)
+- *The Year of Less* by Cait Flanders (In the Queue)
+- *Dare to Lead* by Brené Brown (In the Queue)
+- *Outliers* by Malcom Gladwell (In the Queue)
