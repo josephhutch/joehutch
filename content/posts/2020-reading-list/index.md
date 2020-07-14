@@ -20,10 +20,15 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 
 - *Design Thinking Methodology Book* by Emrah Yayici
 - *The Devil In The White City* by Erik Larson
+- *Superintelligence: Paths, Dangers, Strategies* by Nick Bostrom (In Progress)
+- *Killers of the Flower Moon* by David Grann (In the Queue)
+- *Educated* by Tara Westover (In the Queue)
+- *How to Create a Mind: The Secret of Human Thought Revealed* by Ray Kurzweil (In the Queue)
+- *The Lean Startup* by Eric Ries (In the Queue)
+- *The Singularity is Near* by Ray Kurzweil (In the Queue)
 - *Zero to One: Notes on Startups, or How to Build the Future* by Blake Masters and Peter Thiel (In the Queue)
 - *Born a Crime* by Trevor Noah (In the Queue)
 - *The Omnivore's Dilemma: A Natural History of Four Meals* by Michael Pollan (In the Queue)
-- *Killers of the Flower Moon* by David Grann (In the Queue)
 - *Why We Sleep: The New Science of Sleep and Dreams* by Matthew Walker (In the Queue)
 - *Cloud Atlas* by David Mitchell (In the Queue)
 

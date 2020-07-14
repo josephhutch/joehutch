@@ -21,7 +21,7 @@ Aether is a Hugo theme for blogs that elevates good writing and photography. If 
 ## Installation
 In the root directory of your Hugo Project, clone the aether repo into the themes directory.
 
-```shell session
+```bash
 git clone https://github.com/josephhutch/aether.git themes/aether
 ```
 
@@ -57,7 +57,7 @@ That is the only configuration required at the site level! You can now begin wri
 ### Creating content
 Make a new blog post by executing `hugo new posts/postnamehere/index.md` in your shell. At the top of the new markdown file, is what's called the front matter. The front matter is the page's metadata that determines how Hugo and aether generate the HTML for your post. Below you can find what the front matter should contain for a new post and what each of the parameters mean.
 
-```properties
+```toml
 ---
 title: "The title of your post"
 date: date the post was generated
@@ -212,7 +212,7 @@ This image floats to the left of this paragraph and is 250px wide. Its aspect ra
 ### Further Customization
 To change the heading and subtext at the top of list pages just add a \_index.md file in the folder that the list page is generated from. For example to change the heading at the top of the homepage, add an \_index.md file to the content folder with the following parameters.
 
-```properties
+```toml
 ---
 title: "This is the main heading text in big letters"
 date: the date

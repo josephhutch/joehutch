@@ -6,6 +6,10 @@ publishDir = "josephhutch.github.io"
 disableKinds = ["taxonomies","taxonomyTerm"]
 
 [params]
-brand = "joehutch"
-description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
-bgimg = "img/ignasi_pattern_s.png"
+  brand = "joehutch"
+  description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
+  bgimg = "img/ignasi_pattern_s.png"
+
+[markup]
+  [markup.highlight]
+    style= "igor"
