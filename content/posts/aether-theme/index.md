@@ -182,7 +182,7 @@ Here is `var s = "Hello World"` inline code
 #### Images
 
 ```md
-![aether theme displayed on an iPhone](posts/aether-theme/mdd-iphone.jpg)
+![aether theme displayed on an iPhone](mdd-iphone.jpg)
 
 <!--- OR with webp support ... -->
 
