@@ -12,4 +12,4 @@ disableKinds = ["taxonomies","taxonomyTerm"]
 
 [markup]
   [markup.highlight]
-    style= "igor"
+    style = "igor"

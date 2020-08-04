@@ -20,8 +20,9 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 
 - *Design Thinking Methodology Book* by Emrah Yayici
 - *The Devil In The White City* by Erik Larson
-- *Superintelligence: Paths, Dangers, Strategies* by Nick Bostrom (In Progress)
-- *Killers of the Flower Moon* by David Grann (In the Queue)
+- *Superintelligence: Paths, Dangers, Strategies* by Nick Bostrom
+- *Letter to a Christian Nation* by Sam Harris (In Progress)
+- *Killers of the Flower Moon* by David Grann (In Progress)
 - *Educated* by Tara Westover (In the Queue)
 - *How to Create a Mind: The Secret of Human Thought Revealed* by Ray Kurzweil (In the Queue)
 - *The Lean Startup* by Eric Ries (In the Queue)
@@ -38,13 +39,13 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 - *Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future* by Ashlee Vance
 - *Originals* by Adam Grant
 - *The Year of Less* by Cait Flanders
-- *Get Your Sh\*t Together* by Sarah Knight (In Progress)
-- *Dare to Lead* by Brené Brown (In the Queue)
-- *10% Happier* by Dan Harris (In the Queue)
-- *In Defense of Food* by Michael Pollan (In the Queue)
-- *Outliers* by Malcom Gladwell (In the Queue)
+- *Get Your Sh\*t Together* by Sarah Knight
+- *Dare to Lead* by Brené Brown
+- *10% Happier* by Dan Harris
+- *In Defense of Food* by Michael Pollan
+- *Waking Up* by Sam Harris (In Progress)
 
-## My Thoughts
+## Selected Thoughts
 
 {{< smallimg src="designThinkingMethodologyBookCover.jpg" alt="The cover of Design Thinking Methodology Book by Emrah Yayici" smartfloat="left" width="150px" clear="true" >}}
 
@@ -54,14 +55,22 @@ This book was required reading for my Managing New Product Creation class as we 
 
 Review to come..
 
-{{< smallimg src="originalsCover.jpg" alt="The cover of Originals by Adam Grant" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
 {{< smallimg src="theDevilInTheWhiteCityCover.jpg" alt="The cover of The Devil In The White City by Erik Larson" smartfloat="left" width="150px" clear="true" >}}
 
 Review to come..
 
 {{< smallimg src="theYearOfLessCover.jpg" alt="The cover of The Year of Less by Cait Flanders" smartfloat="left" width="150px" clear="true" >}}
+
+Review to come..
+
+{{< smallimg src="10PercentHappierCover.jpg" alt="The cover of 10% Happier" smartfloat="left" width="150px" clear="true" >}}
+
+Review to come..
+
+{{< smallimg src="inDefenceOfFoodCover.jpg" alt="The cover of In Defence of Food" smartfloat="left" width="150px" clear="true" >}}
+
+Review to come..
+
+{{< smallimg src="superIntelligenceCover.jpg" alt="The cover of Superintelligence by Nick Bostrom" smartfloat="left" width="150px" clear="true" >}}
 
 Review to come..
