@@ -21,10 +21,10 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 - *Design Thinking Methodology Book* by Emrah Yayici
 - *The Devil In The White City* by Erik Larson
 - *Superintelligence: Paths, Dangers, Strategies* by Nick Bostrom
-- *Letter to a Christian Nation* by Sam Harris (In Progress)
-- *Killers of the Flower Moon* by David Grann (In Progress)
+- *Letter to a Christian Nation* by Sam Harris
+- *Killers of the Flower Moon* by David Grann
+- *How to Create a Mind: The Secret of Human Thought Revealed* by Ray Kurzweil (In Progress)
 - *Educated* by Tara Westover (In the Queue)
-- *How to Create a Mind: The Secret of Human Thought Revealed* by Ray Kurzweil (In the Queue)
 - *The Lean Startup* by Eric Ries (In the Queue)
 - *The Singularity is Near* by Ray Kurzweil (In the Queue)
 - *Zero to One: Notes on Startups, or How to Build the Future* by Blake Masters and Peter Thiel (In the Queue)
@@ -43,34 +43,4 @@ Reading is an incredible process.  As our eyes scan a page, our brain stitches t
 - *Dare to Lead* by Brené Brown
 - *10% Happier* by Dan Harris
 - *In Defense of Food* by Michael Pollan
-- *Waking Up* by Sam Harris (In Progress)
-
-## Selected Thoughts
-
-{{< smallimg src="designThinkingMethodologyBookCover.jpg" alt="The cover of Design Thinking Methodology Book by Emrah Yayici" smartfloat="left" width="150px" clear="true" >}}
-
-This book was required reading for my Managing New Product Creation class as we explore design thinking.  I have really grown to appreciate design thinking and I thought this book did a great job of explaining what it is and how to use it.
-
-{{< smallimg src="elonMuskCover.jpg" alt="The cover of Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future by Ashlee Vance" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
-{{< smallimg src="theDevilInTheWhiteCityCover.jpg" alt="The cover of The Devil In The White City by Erik Larson" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
-{{< smallimg src="theYearOfLessCover.jpg" alt="The cover of The Year of Less by Cait Flanders" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
-{{< smallimg src="10PercentHappierCover.jpg" alt="The cover of 10% Happier" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
-{{< smallimg src="inDefenceOfFoodCover.jpg" alt="The cover of In Defence of Food" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
-
-{{< smallimg src="superIntelligenceCover.jpg" alt="The cover of Superintelligence by Nick Bostrom" smartfloat="left" width="150px" clear="true" >}}
-
-Review to come..
+- *Waking Up* by Sam Harris
