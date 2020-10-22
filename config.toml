@@ -8,7 +8,8 @@ disableKinds = ["taxonomies","taxonomyTerm"]
 [params]
   brand = "joehutch"
   description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
-  bgimg = "img/ignasi_pattern_s.png"
+  github = "http://github.com/josephhutch"
+  linkedin = "http://linkedin.com/in/joehutch"
 
 [markup]
   [markup.highlight]
