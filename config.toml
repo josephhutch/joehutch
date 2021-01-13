@@ -10,6 +10,7 @@ disableKinds = ["taxonomies","taxonomyTerm"]
   description = "Joe Hutchinson is a master's student at NC State University studying robotics and artificial intelligence."
   github = "http://github.com/josephhutch"
   linkedin = "http://linkedin.com/in/joehutch"
+  headshotimg = "img/faceshot_sm.png"
 
 [markup]
   [markup.highlight]
