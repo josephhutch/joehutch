@@ -23,7 +23,7 @@ sbHorizontalScrollBar = tk.Scrollbar(root)
 sbVerticalScrollBar = tk.Scrollbar(root)
 ```
 
-Now that we have the window setup, let's configure the scrollbars.  Attach the horizontal and vertical scrollbars to the canvas and position them at the bottom and right side of the screen where they belong.  Then bind the scroll events the the proper container.
+Now that we have the window setup, let's configure the scrollbars.  Attach the horizontal and vertical scrollbars to the canvas and position them at the bottom and right side of the screen where they belong.  Then bind the scroll events to the proper container.
 
 ```python
 cTableContainer.config(xscrollcommand=sbHorizontalScrollBar.set,
