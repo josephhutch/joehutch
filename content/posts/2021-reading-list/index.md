@@ -13,6 +13,9 @@ resources:
   src: "books.jpg"
   params:
     description: "An open book with books stacked behind"
+    attribution:
+      name: "Elisa Calvet B."
+      link: "https://unsplash.com/@elisa_cb"
 ---
 
 Last year reading helped me escape from a scary, uncertain world.  I read about how an intelligence explosion could unfold, who was systematically killing the Osage Indians, and why Elon Musk is one of the greatest visionaries of our time. I'm starting this year's reading list where I left off in 2020 with the same intention in mind: take things slow and focus.

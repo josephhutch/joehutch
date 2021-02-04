@@ -12,6 +12,9 @@ resources:
   src: "eeLabEquipment.jpg"
   params:
     description: "EE lab equipment spread across a desk"
+    attribution:
+      name: "Nicolas Thomas"
+      link: "https://unsplash.com/@nicolasthomas"
 ---
 
 Dear reader,

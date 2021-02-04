@@ -12,6 +12,9 @@ resources:
   src: "library.jpg"
   params:
     description: "A picture of a library with a big curved wall of books"
+    attribution:
+      name: "Susan Yin"
+      link: "https://unsplash.com/@syinq"
 ---
 
 Reading is an incredible process.  As our eyes scan a page, our brain stitches together symbols to see words, form ideas, build characters, develop feelings, and even construct entire worlds.  I read a lot of articles but in the past few years I haven't set aside the time to read many books.  This year I'm inviting authors into my life to lay out a more nuanced argument, give me a deeper look at the people I find most inspiring, or share a expansive, captivating story.
