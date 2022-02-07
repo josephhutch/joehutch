@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       
       - name: Install Hugo
-        run: snap install hugo
+        run: sudo snap install hugo
 
       - name: Build Site
         run: hugo --minify
