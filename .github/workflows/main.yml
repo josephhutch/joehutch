@@ -19,3 +19,10 @@ jobs:
 
       - name: Build Site
         run: hugo --minify
+
+      - name: Publish Site
+        run: |
+          cd josephhutch.github.io
+          git add -A
+          git commit -m 'Update site from GitHub Actions'
+          git push https://github.com/josephhutch/josephhutch.github.io.git
