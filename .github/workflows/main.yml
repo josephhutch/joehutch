@@ -23,6 +23,8 @@ jobs:
       - name: Publish Site
         run: |
           cd josephhutch.github.io
+          git config user.name 
+          git config user.email 
           git add -A
           git commit -m 'Update site from GitHub Actions'
-          git push https://github.com/josephhutch/josephhutch.github.io.git
+          git push https://${{secrets.ACCESS_TOKEN}}@github.com/josephhutch/josephhutch.github.io.git
