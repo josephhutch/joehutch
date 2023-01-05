@@ -20,20 +20,13 @@ resources:
 
 Last year reading helped me escape from a scary, uncertain world.  I read about how an intelligence explosion could unfold, who was systematically killing the Osage Indians, and why Elon Musk is one of the greatest visionaries of our time. I'm starting this year's reading list where I left off in 2020 with the same intention in mind: take things slow and focus.
 
-### Books
-
-- *How to Create a Mind: The Secret of Human Thought Revealed* by Ray Kurzweil (In Progress)
-- *Educated* by Tara Westover (In the Queue)
-- *The Lean Startup* by Eric Ries (In the Queue)
-- *The Singularity is Near* by Ray Kurzweil (In the Queue)
-- *Zero to One: Notes on Startups, or How to Build the Future* by Blake Masters and Peter Thiel (In the Queue)
-- *Born a Crime* by Trevor Noah (In the Queue)
-- *The Omnivore's Dilemma: A Natural History of Four Meals* by Michael Pollan (In the Queue)
-- *Why We Sleep: The New Science of Sleep and Dreams* by Matthew Walker (In the Queue)
-- *Cloud Atlas* by David Mitchell (In the Queue)
-
 ### AudioBooks
 
 - *Homo Deus* by Yuval Noah Harari (Listened to on a road trip)
-- *A New Earth: Awakening to Your Life’s Purpose* by Eckhart Tolle (In the Queue)
-- *Sapiens: A Brief History of Humankind* by Yuval Noah Harari (In the Queue)
+- *Sapiens: A Brief History of Humankind* by Yuval Noah Harari
+- *A New Earth: Awakening to Your Life’s Purpose* by Eckhart Tolle
+- *Homo Deus* by Yuval Noah Harari
+- *The Art of Happiness* by His Holiness the Dalai Lama, Howard C. Cutler
+- *Peace Is Every Step* by Thich Nhat Hanh
+- *The Art of Mindful Living* by Thich Nhat Hanh
+- *Happiness* by Thich Nhat Hanh
