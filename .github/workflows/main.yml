@@ -28,4 +28,4 @@ jobs:
           git config user.email hutch7995@gmail.com
           git add -A
           git commit -m 'Rebuild with GitHub Actions'
-          git push --force https://${{secrets.ACCESS_TOKEN}}@github.com/josephhutch/josephhutch.github.io.git
+          git push --force https://${{secrets.ACCESS_TOKEN}}@github.com/josephhutch/josephhutch.github.io.git master
