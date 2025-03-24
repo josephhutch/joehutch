@@ -20,6 +20,11 @@ jobs:
       - name: Build Site
         run: hugo --minify
 
+      - name: Generate ICS
+        run: |
+          python --version
+          python horizon-feed/core.py ./josephhutch.github.io/horizon-test.ics
+
       - name: Publish Site
         run: |
           cd josephhutch.github.io
