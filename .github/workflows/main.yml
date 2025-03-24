@@ -22,9 +22,9 @@ jobs:
 
       - name: Generate ICS
         run: |
-          python --version
+          sudo apt-get install -y python3.12
           pip install ics BeautifulSoup4 requests
-          python horizon-feed/core.py ./josephhutch.github.io/horizon-test.ics
+          python3.12 horizon-feed/core.py ./josephhutch.github.io/horizon-test.ics
 
       - name: Publish Site
         run: |
