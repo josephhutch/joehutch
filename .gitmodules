@@ -3,4 +3,4 @@
 	url = https://github.com/josephhutch/aether.git
 [submodule "horizon-feed"]
 	path = horizon-feed
-	url = git@github.com:josephhutch/horizon-feed.git
+	url = https://github.com/josephhutch/horizon-feed.git
