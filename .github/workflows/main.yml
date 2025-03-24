@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v2
         with:
@@ -22,9 +22,8 @@ jobs:
 
       - name: Generate ICS
         run: |
-          sudo apt-get install -y python3.12
           pip install ics BeautifulSoup4 requests
-          python3.12 horizon-feed/core.py ./josephhutch.github.io/horizon-test.ics
+          python horizon-feed/core.py ./josephhutch.github.io/horizon-test.ics
 
       - name: Publish Site
         run: |
