@@ -40,3 +40,4 @@ Thumbs.db
 # Project specific files #
 ##########################
 josephhutch.github.io/
+.hugo_build.lock
