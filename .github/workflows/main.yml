@@ -7,15 +7,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
       
-      - name: Install Hugo
-        run: sudo snap install hugo
+      - uses: jdx/mise-action@v4
+        with:
+          install_args: "--locked"
 
       - name: Build Site
         run: hugo --minify
