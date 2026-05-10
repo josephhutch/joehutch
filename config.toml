@@ -1,9 +1,9 @@
 baseURL = "https://www.joehutch.com"
-languageCode = "en-us"
+locale = "en-US"
 title = "Joe Hutchinson"
 theme = "aether"
 publishDir = "josephhutch.github.io"
-disableKinds = ["taxonomies","taxonomyTerm"]
+disableKinds = ["taxonomy","term"]
 
 [params]
   brand = "joehutch"
