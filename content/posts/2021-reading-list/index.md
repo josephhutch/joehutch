@@ -2,7 +2,7 @@
 title: "My 2021 Reading List"
 date: 2021-01-13T22:01:28-05:00
 description: "I don't think I'm alone feeling overwhelmed in today's world.  When things get crazy, my favorite way to unwind is with a good book."
-categories: ["life"]
+categories: ["Life Offline"]
 toc: false
 dropCap: true
 displayInMenu: false

@@ -2,7 +2,7 @@
 title: "How to Add Scrollbars to a Dynamic GUI in TKinter"
 date: 2020-07-28T12:06:10-04:00
 description: "When dynamically adding a widget to a GUI, you expect any scrollbars to adapt to the new size of the content area (allowing the user to scroll to the new content).  Unfortunately when developing these dynamic GUIs with Tkinter, it is not straightforward to get this behavior.  This post will show you how to get your scrollbars working so you can move on to the fun stuff."
-categories: ["tech"]
+categories: ["Building"]
 toc: false
 dropCap: true
 displayInMenu: false

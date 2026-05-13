@@ -2,7 +2,7 @@
 title: "Aether: A Clean Theme for Hugo"
 date: 2018-05-02T14:33:42-04:00
 description: "Aether is new theme for Hugo (a static site generator) that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content."
-categories: ["tech"]
+categories: ["Building"]
 dropCap: true
 displayInMenu: false
 displayInList: true
@@ -33,7 +33,7 @@ Add the following parameters to your config file if they are not present already
 
 ```toml
 baseURL = "https://yourwebsitenamegoeshere.com"
-languageCode = "your language code"
+locale = "your language code"
 title = "your website title"
 theme = "aether"
 googleAnalytics = "Your google analytics tracking ID"
@@ -41,14 +41,17 @@ googleAnalytics = "Your google analytics tracking ID"
 [params]
 brand = "the title displayed in the nav bar - optional"
 description = "your website's description"
-homeimg = "url to the image used for the home button - optional"
-bgimg = "url to the image used for the background - optional"
-rssinmenu = if a RSS link should appear in the nav menu (true, false) - optional
+
+[params.appearance]
+backgroundImage = "url to the image used for the background - optional"
+
+[params.navigation]
+rssInMenu = if a RSS link should appear in the nav menu (true, false) - optional
 ```
 
 The `title` parameter is used for each page title, the title that seach engines display in search results. If you would like the title shown in the top left of the page to be different from the page title, use the `brand` parameter. For instance, the title parameter for my site is `Joe Hutchinson` but the brand parameter is set to `joehutch`.
 
-The `homeimg` and `bgimg` parameters give you the ability to customize the look of your site further. The homeimg parameter is the image used for the home button at the bottom of every page. Since the text used on the home button is white, a darker background image is preferred. If the homeimg parameter is not specified, a fallback image is used. Similarly, the bgimg parameter is used for the background of each webpage. Aether is designed to look best with a subtle tiling image for the background. If no background image is specified, the background will be a solid gray color.
+The `backgroundImage` parameter gives you the ability to customize the look of your site further. Aether is designed to look best with a subtle tiling image for the background. If no background image is specified, the background will be a solid gray color.
 
 That is the only configuration required at the site level! You can now begin writing content for your site.
 

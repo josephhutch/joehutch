@@ -2,7 +2,7 @@
 title: "My 2022 Reading List"
 date: 2022-08-23T21:11:38-04:00
 description: "\"The medium is the message\" as the saying goes.  Books reflect the nuanced nature of life and slow things down when the world feels fast."
-categories: ["life"]
+categories: ["Life Offline"]
 toc: false
 dropCap: true
 displayInMenu: false

@@ -1,0 +1,27 @@
+baseURL = "https://www.joehutch.com"
+locale = "en-US"
+title = "Joe Hutchinson"
+theme = "noesis"
+publishDir = "josephhutch.github.io"
+
+[params]
+  brand = "joehutch"
+  description = "Joe Hutchinson - AI engineer in Raleigh. Long-form essays on the future of computing, deep-dives on the projects I'm building, and notes on the life around the work."
+
+  [params.profile]
+    jobTitle = "AI Engineer"
+    location = "Raleigh, NC"
+    headshotImage = "img/headshot.jpg"
+    headshotAlt = "Headshot of Joe Hutchinson"
+
+  [params.socials]
+    github = "https://github.com/josephhutch"
+    linkedin = "https://linkedin.com/in/joehutch"
+    x = "https://x.com/joehutch"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[imaging]
+  compression = 'lossless'

@@ -1,3 +1,6 @@
 [submodule "themes/aether"]
 	path = themes/aether
 	url = https://github.com/josephhutch/aether.git
+[submodule "themes/noesis"]
+	path = themes/noesis
+	url = https://github.com/josephhutch/noesis.git
