@@ -4,7 +4,6 @@ date: 2021-01-31T22:40:38-05:00
 description: "After visiting the Grand Canyon in December 2012, I wrote this poem in my creative writing class to capture the experience."
 categories: ["Life Offline"]
 toc: false
-dropCap: true
 displayInMenu: false
 displayInList: true
 draft: false

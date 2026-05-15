@@ -3,7 +3,6 @@ title: "My 2020 Reading List"
 date: 2020-01-14T17:50:14-05:00
 description: "I love reading and I wish I did more of it.  Here are the books I'm reading (or listening to) to this year."
 categories: ["Life Offline"]
-dropCap: false
 displayInMenu: false
 displayInList: true
 draft: false

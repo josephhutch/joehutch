@@ -3,7 +3,6 @@ title: "A Letter to Those Starting Electrical Engineering"
 date: 2020-01-16T18:10:25-05:00
 description: "Electrical Engineering is an exciting, rewarding career choice.  For those who enjoy physics and logic it is a perfect fit.  Here is the advice I wish I knew when starting my EE journey."
 categories: ["Building"]
-dropCap: false
 displayInMenu: false
 displayInList: true
 draft: false

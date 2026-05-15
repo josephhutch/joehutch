@@ -3,7 +3,6 @@ title: "Procedurally Generated Maze Game Fun"
 date: 2019-03-15T21:28:41-04:00
 description: "Everyone loves a good maze but, how might a computer generate one. Well, you can generate a maze using a simple algorithm called recursive backtracking. And yes, the algorithm is as cool as its name."
 categories: ["Building"]
-dropCap: true
 displayInMenu: false
 displayInList: true
 draft: true
