@@ -1,6 +1,6 @@
 ---
 title: "AI Agents Don’t Think in Shell Sessions"
-date: 2026-05-14T23:28:09-04:00
+date: 2026-05-17
 description: "AI coding agents expose a subtle flaw in many modern development environments: tools designed around long-lived human shell sessions often break down when commands are executed through short-lived, non-interactive subprocesses. Devbox, worktrees, cloud agent environments, and shell activation all start behaving differently once the “developer” issuing commands is no longer human."
 categories: ["Artificial Intelligence"]
 toc: false
@@ -15,7 +15,7 @@ Enter tools like Docker, Devbox, and mise.
 
 I had been using Devbox when a full container felt unnecessary because it gave me clean dependency management and a project-local toolchain without much ceremony. But Devbox exposed a weakness in that model: it made the environment reproducible, but in an AI agent workflow, getting each command to reliably execute inside that environment became its own source of fragility.
 
-## The Crux in a Nutshell
+## The Crux in a Nut-Shell
 
 What works well for human developers does not always work well for AI agents.
 
@@ -175,4 +175,3 @@ The workflows that seem to hold up best are the ones that make correctness expli
 Humans think in shell sessions.
 
 Agents think in command executions.
-
