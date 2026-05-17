@@ -17,9 +17,7 @@ I had been using Devbox when a full container felt unnecessary because it gave m
 
 ## The Crux in a Nut-Shell
 
-What works well for human developers does not always work well for AI agents.
-
-Devbox is a good example of why.
+What works well for human developers does not always work well for AI agents. Devbox is a good example of why.
 
 For a human developer, the normal workflow is simple:
 
@@ -29,9 +27,7 @@ devbox shell
 
 You enter the environment once, then continue working inside that initialized shell session. From that point forward, ordinary commands like `python`, `pytest`, `node`, or `task test` run with the tools and environment variables Devbox provided.
 
-That model feels natural because human developers already think in sessions. We open a terminal, establish context, and keep using that context while we work.
-
-AI agents often operate very differently.
+That model feels natural because human developers already think in sessions. We open a terminal, establish context, and keep using that context while we work. AI agents often operate very differently.
 
 In tools like Cursor and Codex, commands are frequently executed as short-lived, non-interactive subprocesses. The agent may run one command, observe the output, then run the next command in a fresh execution context. Any environment mutation that happened inside a prior shell may be gone by the time the next command runs.
 
@@ -47,7 +43,7 @@ That works, but it introduces two problems.
 
 First, environment correctness moves into prompt discipline. The workflow now depends on the agent remembering to wrap every command correctly. One missed `devbox run` and the agent may be operating outside the intended project environment.
 
-Second, it weakens command-level approval ergonomics. Coding tools often let you always allow simple commands like `ls`, `cat`, or `pwd`. But once every command is wrapped as `devbox run <command>`, the approval boundary becomes `devbox` or `devbox run`, not the underlying command. You lose the ability to distinguish between harmless reads and more consequential operations at the permission prompt.
+Second, it weakens command-level approval ergonomics. Coding tools often let you auto-approve comamnds you feel don't need your blessing, but once every command is wrapped as `devbox run <command>`, the approval boundary becomes `devbox` or `devbox run`, not the underlying command. You lose the granularity to distinguish between harmless reads and more consequential operations at the permission prompt.
 
 Cloud environments exposed another version of the same issue. In some agent environments, Devbox was not available at all. The repository still had an environment definition, but the tool required to activate that environment was missing.
 
@@ -61,13 +57,9 @@ After fighting with this for a while, I switched my agent-heavy projects to mise
 
 The important difference was not that mise is inherently “better” than Devbox. The important difference was that mise’s shim-based execution model fit agents much more naturally.
 
-A shim is a lightweight executable that sits earlier on PATH than the real command. When you run a command like `python`, `node`, or `uv`, you may not be invoking the globally installed binary directly. You are invoking the shim. The shim then inspects the current directory, determines which tool version the project expects, and forwards execution to the correct binary.
+A shim is a lightweight executable that sits earlier on PATH than the real command. When you run a command like `python`, `node`, or `uv`, you may not be invoking the globally installed binary directly. You are invoking the shim. The shim then inspects the current directory, determines which tool version the project expects, and forwards execution to the correct binary. That sounds like a small implementation detail, but it changes the interaction model.
 
-That sounds like a small implementation detail, but it changes the interaction model.
-
-With Devbox, the agent first needs to enter the environment correctly before ordinary commands behave properly.
-
-With mise, the command itself resolves correctly at execution time.
+With Devbox, the agent first needs to enter the environment correctly before ordinary commands behave properly. With mise, the command itself resolves correctly at execution time.
 
 Instead of this:
 
@@ -127,7 +119,7 @@ Once Codex inherited that PATH, each ephemeral command shell could still find th
 
 Worktrees introduced one extra requirement: trust.
 
-Because mise treats project configuration as potentially sensitive, new worktree paths may need to be trusted before configuration is fully evaluated. You can trust a single project with `mise trust`, and that worked in some setups, but I found it inconsistent across agent workflows. It was workable in Codex setup steps, but less reliable for Cursor worktrees.
+Because mise treats project configuration as potentially sensitive, new worktree paths may need to be trusted before mise installs dependencies. You can trust a single project with `mise trust`, and that worked in some setups, but I found it inconsistent across agent workflows. It was workable in Codex setup steps, but less reliable for Cursor worktrees.
 
 The more robust option was to trust the parent directories where those worktrees are created. mise exposes this through the `trusted_config_paths` setting in `~/.config/mise/config.toml`. You can update that setting with the `mise settings` CLI or by editing the config file manually.
 
@@ -158,17 +150,13 @@ mise trust
 mise install
 ```
 
-That mental model felt much healthier. Agents should not depend on inheriting my terminal session. They should be able to clone the repository, trust the configuration, install the declared toolchain, and run commands predictably.
+That mental model felt much healthier. Agents should not depend on inheriting my terminal session. They should be able to clone the repository, install the declared toolchain, and run commands predictably.
 
 ## Agentic Development Changes the Environment Model
 
-The broader lesson here is not “Devbox is bad” or “mise is universally better.” Devbox remains an excellent tool for reproducible development environments.
+The broader lesson here is not “Devbox is bad” or “mise is universally better.” Devbox remains an excellent tool for reproducible development environments. The real lesson is that AI agents interact with their shell environment in a different way than humans do.
 
-The real lesson is that AI agents interact with their shell environment in a different way than humans do.
-
-Agents interact with development environments through repeated command execution, often across fresh non-interactive subprocesses. Small activation assumptions that barely matter for humans suddenly become constant sources of friction because agents exercise those paths hundreds or thousands of times.
-
-That is why environment activation complexity matters so much more in agent workflows. The more your tooling depends on hidden shell state, initialization rituals, or session persistence, the more likely those cracks are to show under agents.
+Agents interact with development environments through repeated command execution, often across fresh non-interactive subprocesses. Small activation assumptions that barely matter for humans suddenly become constant sources of friction because agents exercise those paths hundreds or thousands of times. That is why environment activation complexity matters so much more in agent workflows. The more your tooling depends on hidden shell state, initialization rituals, or session persistence, the more likely those cracks are to show under agents.
 
 The workflows that seem to hold up best are the ones that make correctness explicit at command execution time: pinned toolchains, lockfiles, shims, deterministic setup commands, and predictable task runners.
 
