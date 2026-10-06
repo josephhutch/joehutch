@@ -3,7 +3,6 @@ title: "Building in the age of AI."
 date: 2018-04-27T09:46:15-04:00
 description: "Writing on the future of computing, in-flight projects, and a life beyond the screen."
 params:
-  eyebrow: "Notes & Essays"
   about: |
     I'm Joe, a software engineer and builder based in Raleigh.
     

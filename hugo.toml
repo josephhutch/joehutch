@@ -3,9 +3,18 @@ locale = "en-US"
 title = "Joe Hutchinson"
 theme = "noesis"
 
+[taxonomies]
+  category = "categories"
+
 [params]
-  brand = "joehutch"
+  brand = "Joe Hutchinson"
   description = "Joe Hutchinson, ML Platform Engineer in Raleigh. Essays on the future of computing, in-flight projects, and life beyond the screen."
+
+  [params.author]
+    name = "Joe Hutchinson"
+    jobTitle = "ML Platform Engineer"
+    worksFor = "Blue River Technology"
+    location = "Raleigh, NC"
 
   [params.socials]
     github = "https://github.com/josephhutch"

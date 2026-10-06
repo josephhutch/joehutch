@@ -1,5 +1,5 @@
 {
-    "name": "Joe Hutchinson's Blog",
+    "name": "Joe Hutchinson",
     "short_name": "joehutch",
     "icons": [
         {
@@ -13,7 +13,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#ebebeb",
-    "background_color": "#ebebeb",
+    "theme_color": "#f7f3eb",
+    "background_color": "#f7f3eb",
     "display": "standalone"
 }

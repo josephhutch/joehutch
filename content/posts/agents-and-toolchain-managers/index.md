@@ -43,7 +43,7 @@ That works, but it introduces two problems.
 
 First, environment correctness moves into prompt discipline. The workflow now depends on the agent remembering to wrap every command correctly. One missed `devbox run` and the agent may be operating outside the intended project environment.
 
-Second, it weakens command-level approval ergonomics. Coding tools often let you auto-approve comamnds you feel don't need your blessing, but once every command is wrapped as `devbox run <command>`, the approval boundary becomes `devbox` or `devbox run`, not the underlying command. You lose the granularity to distinguish between harmless reads and more consequential operations at the permission prompt.
+Second, it weakens command-level approval ergonomics. Coding tools often let you auto-approve commands you feel don't need your blessing, but once every command is wrapped as `devbox run <command>`, the approval boundary becomes `devbox` or `devbox run`, not the underlying command. You lose the granularity to distinguish between harmless reads and more consequential operations at the permission prompt.
 
 Cloud environments exposed another version of the same issue. In some agent environments, Devbox was not available at all. The repository still had an environment definition, but the tool required to activate that environment was missing.
 
